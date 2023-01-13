@@ -40,7 +40,7 @@ while True:
                 loc = 0
                 break
             else:
-                print('Два пути. 3 - . 4 - . 0 - .')
+                print('Три пути. 3 - Вперед 4 - Направо. 0 - Назад.')
             loc = int(input())
             if loc != 3 and loc != 4 and loc != 0:
                 print('Вы не имеете доступа к локации', loc)
@@ -61,7 +61,7 @@ while True:
                 loc = 0
                 break
             else:
-                print('Два пути. 4 - . 5 - . 0 - .')
+                print('Два пути. 4 - Налево. 5 - Вперед. 0 - Назад.')
             loc = int(input())
             if loc != 4 and loc != 5 and loc != 0:
                 print('Вы не имеете доступа к локации', loc)
@@ -82,7 +82,7 @@ while True:
                 loc = 0
                 break
             else:
-                print('Два пути. 6 - . 1 - .')
+                print('Два пути. 6 - Вперед. 1 - Назад.')
             loc = int(input())
             if loc != 6 and loc != 1:
                 print('Вы не имеете доступа к локации', loc)
@@ -124,7 +124,7 @@ while True:
                 loc = 0
                 break
             else:
-                print('Два пути. 6 - . 2 - .')
+                print('Два пути. 6 - Вперед. 2 - Назад.')
             loc = int(input())
             if loc != 6 and loc != 2:
                 print('Вы не имеете доступа к локации', loc)
